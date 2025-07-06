@@ -37,3 +37,13 @@ if (Math.random() > 0.5) {
 } else {
   phoneNumber = '7167762323';
 }
+//string interpolation
+
+const Name = prompt("What is your first name?");
+const lastName = prompt("What is your last name?");
+const age = prompt("How old are you?");
+
+console.log(`Your name is ${Name} ${lastName}.`);
+console.log(`You are ${age} years old.`);
+
+// on console I will see my name and age
